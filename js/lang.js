@@ -57,6 +57,47 @@ const langArr = {
       de: "Die Laser-Haarentfernung ist der Schlüssel, um Primärpatienten in jeden Schönheitssalon zu locken",
       sk: "Laserové odstránenie chĺpkov je kľúčom k prilákaniu primárnych pacientov do akéhokoľvek salónu krásy",
     },
+
+    left__laser_1_price: {
+      en: "123 Euro",
+      de: "124 Euro",
+      sk: "125 Euro",
+    },
+
+    left__laser_1_charact_1 : {
+      en: "12 bar 800 w power handle",
+      de: "12 bar 800 W Kraftgriff",
+      sk: "Rukoväť s výkonom 12 barov 800 W",
+    },
+
+    left__laser_1_charact_1: {
+      en: "12 bar 800 w power handle",
+      de: "12 bar 800 W Kraftgriff",
+      sk: "Rukoväť s výkonom 12 barov 800 W",
+    },
+    left__laser_1_charact_2: {
+      en: "Alma 808 nm handle, spot size 12 * 20 mm",
+      de: "Alma 808 nm Griff, Spotgröße 12 * 20 mm",
+      sk: "Rukoväť Alma 808 nm, veľkosť bodu 12 * 20 mm",
+    },
+    left__laser_1_charact_3: {
+      en: "800 w TEC cooling system",
+      de: "800 W TEC-Kühlsystem",
+      sk: "800w chladiaci systém TEC",
+    },
+    left__laser_1_charact_4: {
+      en: "Supply power mashine 2500 w",
+      de: "Versorgungsleistung Maschine 2500 W",
+      sk: "Príkon stroja 2500 W",
+    },
+    left__laser_1_charact_5: {
+      en: "Led screen display 12.6",
+      de: "LED-Bildschirmanzeige 12.6",
+      sk: "LED displej 12.6",
+    },
+
+
+
     left_p2: {
       en: "High level of laser hair removal services allows you to wait for subsequent visits of patients for other types of cosmetic procedures.",
       de: "Hochwertige Dienstleistungen zur Laser-Haarentfernung ermöglicht es Ihnen, auf spätere Patientenbesuche zu warten für andere Arten kosmetischer Eingriffe.",
@@ -78,4 +119,4 @@ const langArr = {
 }
 
 
-rent__left_p1
+left__laser_1_price
