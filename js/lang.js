@@ -63,6 +63,11 @@ const langArr = {
       sk: "Služby laserovej epilácie na vysokej úrovni umožňuje čakať na následné návštevy pacientov pre iné typy kozmetických procedúr.",
     },
 
+    right_p1: {
+      en: "Laser hair removal is one of the most popular cosmetology searches.",
+      de: "Die Laser-Haarentfernung ist eine der beliebtesten Suchanfragen in der Kosmetikbranche.",
+      sk: "Laserové odstránenie chĺpkov je jedným z najpopulárnejších kozmetických vyhľadávaní.",
+    },
     right_a: {
       en: "Rent the equipment NOW!",
       de: "JETZT die Ausrüstung mieten!",

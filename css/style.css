@@ -166,6 +166,7 @@ img {
 
 .home__left a:hover {
   background: #7ab9cc;
+  color: var(--white);
 }
 
 .home__left__bottom{
@@ -199,6 +200,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding: 50px 0 0 0;
+  text-align: center;
 }
 
 .rent__left {
@@ -210,7 +212,7 @@ img {
   text-align: center;
   justify-content: center;
   gap: 50px;
-  padding: 0px 20px 0 20px;
+  padding: 0 20px 0 0;
 }
 
 .rent__right {
@@ -220,6 +222,13 @@ img {
 .rent__right a {
   border: solid 1px var(--text-color);
   border-radius: 20px;
+  padding: 15px 15px 15px 15px;
+  background: var(--blue);
+}
+
+.rent__right  a:hover {
+  background: #7ab9cc;
+  color: var(--white);
 }
 /* #endregion */
 
