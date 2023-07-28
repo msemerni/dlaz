@@ -1,3 +1,7 @@
+window.onload = function () {
+  currYear();
+}
+
 const selectLang = document.querySelector('.select-lang');
 
 let lang = localStorage.getItem("lang");
@@ -24,6 +28,10 @@ function changeLanguage() {
       }
     }
   }
+}
+
+function currYear() {
+  document.querySelector('.copyRight').innerHTML += new Date().getFullYear();
 }
 
 changeLanguage();
