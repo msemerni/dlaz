@@ -65,9 +65,9 @@ const langArr = {
     },
 
     left__laser_1_price: {
-      en: "€ 123",
-      de: "€ 124",
-      sk: "€ 125",
+      en: "€ 120",
+      de: "€ 120",
+      sk: "€ 120",
     },
 
     left__laser_1_charact_header: {
@@ -110,8 +110,8 @@ const langArr = {
 
     right__laser_2_price: {
       en: "€ 130",
-      de: "€ 131",
-      sk: "€ 132",
+      de: "€ 130",
+      sk: "€ 130",
     },
 
     right__laser_2_charact_header: {
