@@ -48,7 +48,7 @@ const langArr = {
 
   rent: {
     header: {
-      en: "Rent the equipment tht is right for you!",
+      en: "Rent the equipment that is right for you!",
       de: "Mieten Sie die Ausrüstung, die zu Ihnen passt!",
       sk: "Požičajte si vybavenie, ktoré je pre vás to pravé!",
     },
