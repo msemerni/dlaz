@@ -33,6 +33,7 @@ const langArr = {
     },
   },
 
+
   home: {
     descr: {
       en: "Epilation diode laser rentals you pay only wneh you earn no strickt monthly payments rent of cosmetology equipment never been so easy and rewarding",
@@ -45,6 +46,7 @@ const langArr = {
       sk: "Uč sa viacPopis fotografie",
     }
   },
+
 
   rent: {
     header: {
@@ -120,7 +122,6 @@ const langArr = {
       sk: "Technické údaje:",
     },
 
-
     right__laser_2_charact_1: {
       en: "12 bar 1200 w power handle",
       de: "12 bar 1200 W Kraftgriff",
@@ -165,6 +166,7 @@ const langArr = {
     },
 
   },
+
 
   advantage: {
     header: {
@@ -212,7 +214,7 @@ const langArr = {
 
     card_4_title: {
       en: "Service maintenance",
-      de: "Service-wartung",
+      de: "Service-Wartung",
       sk: "Servisná údržba",
     },
     card_4_text: {
@@ -223,7 +225,7 @@ const langArr = {
 
     card_5_title: {
       en: "Low investment",
-      de: "Geringe investition",
+      de: "Geringe Investition",
       sk: "Nízka investícia",
     },
     card_5_text: {
@@ -234,7 +236,7 @@ const langArr = {
 
     card_6_title: {
       en: "Flexible rental conditions and the possibility of buying",
-      de: "Flexible mietkonditionen und kaufmöglichkeit",
+      de: "Flexible Mietkonditionen und Kaufmöglichkeit",
       sk: "Flexibilné podmienky prenájmu a možnosť kúpy",
     },
     card_6_text: {
@@ -278,10 +280,6 @@ const langArr = {
   },
 
 
-
-
-
-
   media: {
     header: {
       en: "Photo / video by models",
@@ -297,9 +295,6 @@ const langArr = {
   },
 
 
-
-
-
   contacts: {
     header: {
       en: "Contacts",
@@ -313,14 +308,10 @@ const langArr = {
       sk: "Napíšte nám",
     },
 
-
     author_before: {
       en: "written by",
       de: "geschrieben von",
       sk: "napísal",
     },
-
   },
 }
-
-

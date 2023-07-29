@@ -19,9 +19,7 @@ function changeLanguage() {
   localStorage.setItem("lang", lang);
 
   for (let section in langArr) {
-    // console.log("=SECTION=: ", section);
     for (let key in langArr[section]) {
-      // console.log(key);
       let elem = document.querySelector(`.lng-${section}-${key}`);
       if (elem) {
         elem.innerHTML = langArr[section][key][lang];
