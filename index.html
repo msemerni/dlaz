@@ -372,7 +372,7 @@
 
                 <div class="media-col-one-item">
                   <div class="media-col-item-img">
-                    <video src="./images/media/5.mp4" style="width: 100%" controls></video>
+                    <video src="./images/media/8.mp4" style="width: 100%" controls></video>
                   </div>
                   <div class="media-col-item-txt">
                     <p class="lng-media-card_1_text">
@@ -493,6 +493,42 @@
             <div class="feedback-box">
               <a class="feedback_btn lng-contacts-feedback btn" href="mailto:dlaz.cosm@gmail.com">Write to us</a>
             </div>
+
+
+            <div class="telegram-box">
+             <form id="tg" class="telegram-form">
+              <div class="tg-form-group">
+                <label for="tg-name" class="tg-form-label">Name</label>
+                <input type="text" name="tg_name" id="tg-name" class="tg-form-control">
+              </div>
+
+              <div class="tg-form-group">
+                <label for="tg-email" class="tg-form-label">Email</label>
+                <input type="email" name="tg_email" id="tg-email" class="tg-form-control">
+              </div>
+
+              <div class="tg-form-group">
+                <label for="tg_phone" class="tg-form-label">Phone</label>
+                <input type="tel" name="tg_phone" id="tg_phone" class="tg-form-control">
+              </div>
+
+              <div class="tg-form-group">
+                <label for="tg-textbox" class="tg-form-label">Message</label>
+                <textarea 
+                  name="tg_msg" 
+                  id="tg-textbox" 
+                  class="tg-form-control" 
+                  required
+                  minlength="1"
+                  maxlength="1000"
+                  rows="5"
+                  ></textarea>
+              </div>
+             
+              <button class="submit-btn" type="submit">Send</button>
+             </form>
+            </div>
+
           </div>
             
           <div class="divider"></div>
@@ -515,10 +551,12 @@
       </section>
     </footer>
     <!-- #endregion -->
+    
   </div>
 
   <script src="./js/lang.js"></script>
   <script src="./js/app.js"></script>
+  <script src="./js/telegram.js"></script>
 </body>
 
 </html>

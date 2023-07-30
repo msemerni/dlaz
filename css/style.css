@@ -38,7 +38,8 @@ li,
 input,
 textarea,
 select,
-option {
+option,
+form {
   margin: 0;
   padding: 0;
   border: 0;
@@ -66,11 +67,6 @@ h2 {
 
 h3 {
   font-size: 20px;
-  font-weight: 500;
-}
-
-h4 {
-  font-size: 18px;
   font-weight: 500;
 }
 
@@ -308,6 +304,11 @@ img {
   max-width: 100px;
 }
 
+.advantage-col-item-img>img:hover {
+  transform: rotate(360deg);
+  transition: all 0.3s ease-out;
+}
+
 .advantage-col-item-txt {
   display: flex;
   flex-direction: column;
@@ -417,12 +418,6 @@ img {
   align-self: center;
 }
 
-.contacts-col-item-txt p {
-  margin: 0;
-  color: var(--grey);
-  font-size: 13px;
-}
-
 .address p {
   margin-bottom: 5px;
 }
@@ -447,6 +442,80 @@ img {
   color: blue;
 }
 /* #endregion */
+
+/* #region telegram */
+.telegram-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  display: none;
+}
+
+.telegram-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-height: 500px;
+  max-width: 350px;
+  background: #8ac9c7;
+  border: 2px solid red;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.tg-form-group {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #8ac9c7;
+
+}
+
+.tg-form-group textarea {
+  resize: none;
+}
+
+
+.tg-form-label {
+  font-size: 12px;
+  color: var(--grey);
+}
+
+.tg-form-control {
+  border: 1px solid grey;
+  width: 100%;
+  text-align: left;
+}
+
+.submit-btn {
+  padding: 5px 15px;
+  color: chartreuse;
+  align-self: center;
+  background: #2907c4;
+  border: none;
+  border-radius: 20px;
+  width: 80px;
+  cursor: pointer;
+  margin: 15px 0;
+}
+
+.submit-btn:hover {
+  color: white;
+  background: black;
+}
+/* #endregion */
+
 
 @media (max-width: 1000px) {
   /* #region header */
