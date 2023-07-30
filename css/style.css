@@ -99,6 +99,7 @@ img {
   background: var(--bg-grad-1);
   width: 250px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -391,7 +392,7 @@ img {
 
 .feedback-box {
   display: flex;
-  padding: 10px;
+  padding: 15px;
   justify-content: center;
 }
 
@@ -444,29 +445,32 @@ img {
 /* #endregion */
 
 /* #region telegram */
+.disp-none {
+  display: none;
+}
+
+.visible-none {
+  visibility: hidden;
+}
+
 .telegram-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000;
-  opacity: 0.9;
+  background: #000000f0;
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-
-  display: none;
 }
 
 .telegram-form {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   max-height: 500px;
   max-width: 350px;
-  background: #8ac9c7;
-  border: 2px solid red;
+  background: #2f797c;
   border-radius: 20px;
   padding: 15px;
 }
@@ -478,41 +482,47 @@ img {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  background: #8ac9c7;
-
+  background: #2f797c;
 }
 
 .tg-form-group textarea {
   resize: none;
 }
 
-
 .tg-form-label {
   font-size: 12px;
-  color: var(--grey);
+  color: #baefcd;
 }
 
 .tg-form-control {
-  border: 1px solid grey;
   width: 100%;
   text-align: left;
+  background: #e4e9ff;
+  border-radius: 7px;
+}
+
+.success-send-box {
+  background: #24c524;
+  margin: 10px;
+  padding: 10px;
 }
 
 .submit-btn {
-  padding: 5px 15px;
-  color: chartreuse;
+  padding: 8px 8px;
+  color: var(--text-color);
   align-self: center;
-  background: #2907c4;
+  background: var(--bg-grad-1);
   border: none;
   border-radius: 20px;
-  width: 80px;
+  min-width: 150px;
   cursor: pointer;
-  margin: 15px 0;
+  margin: 10px 0;
+  font-size: 16px;
 }
 
 .submit-btn:hover {
-  color: white;
-  background: black;
+  background: var(--text-color);
+  color: var(--white);
 }
 /* #endregion */
 
