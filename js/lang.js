@@ -260,6 +260,20 @@ const langArr = {
     },
   },
 
+  
+  price: {
+    header: {
+      en: "You pay only when you earn yourself!",
+      de: "Sie zahlen nur, wenn Sie etwas verdienen!",
+      sk: "Platíte len vtedy, keď sami zarábate!",
+    },
+    header2: {
+      en: "The cost is € 0.03 per flash",
+      de: "Die Kosten betragen € 0,03 pro Blitz",
+      sk: "Cena je € 0,03 za blesk",
+    },
+  },
+
 
   media: {
     header: {
@@ -273,8 +287,6 @@ const langArr = {
       sk: "Naše lasery majú jednoduché a intuitívne rozhranie.\n Jazyk rozhrania: ruština, angličtina, nemčina, španielčina.\n Presvedčte sa sami!\n Náš laser na odstraňovanie chĺpkov v akcii.\n Pozrite si video s postupom a zistite, aké je to jednoduché použiť D-Laz.",
     },
   },
-
-
   contacts: {
     header: {
       en: "Contacts",
@@ -292,4 +304,38 @@ const langArr = {
       sk: "napísal",
     },
   },
+
+  tg: {
+    form_name: {
+      en: "Name",
+      de: "Name",
+      sk: "Názov",
+    },
+    form_email: {
+      en: "Email",
+      de: "Email",
+      sk: "Email",
+    },
+    form_phone: {
+      en: "Phone",
+      de: "Telefon",
+      sk: "Telefón",
+    },
+    form_message: {
+      en: "Message",
+      de: "Nachricht",
+      sk: "Správa",
+    },
+    form_message_sent: {
+      en: "Message sent",
+      de: "Nachricht gesendet",
+      sk: "Správa poslaná",
+    },
+    form_message_sent_btn: {
+      en: "Send",
+      de: "Schicken",
+      sk: "Odoslať",
+    }
+  },
+
 }

@@ -11,6 +11,7 @@ const toggleFeedbackForm = (e) => {
   const isFormClicked = e.target.closest("#tg");
   if (!isFormClicked) {
     feedbackFormBox.classList.toggle('disp-none');
+    // document.body.style.overflow = hidden;
   }
 }
 
@@ -45,9 +46,8 @@ async function sendMsgToTelegram(e) {
     successSendBox.classList.toggle('visible-none');
 
     setTimeout(()=>{
-      console.log("Delayed for 2 second.");
-
       feedbackFormBox.classList.toggle('disp-none');
+      // document.body.style.overflow = visible;
     }, 2000);
 
   } else {
