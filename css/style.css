@@ -111,7 +111,7 @@ img {
 .divider {
   height: 1px;
   flex-shrink: 0;
-  background: var(--text-color);
+  background: #d3d3d3;
 }
 /* #endregion */
 
@@ -161,8 +161,6 @@ img {
 }
 
 .select-lang {
-  border: solid var(--text-color) 1px;
-  border-radius: 20px;
   cursor: pointer;
 }
 /* #endregion */
@@ -232,24 +230,8 @@ img {
   align-items: center;
 }
 
-.rent__price_box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0 0 0;
-}
-
-.rent__price_box p {
-  margin: 0;
-}
-
 .rent-col-one-item p:not(:first-child) {
   padding: 15px 0 0 0;
-}
-
-.rent__price_box span {
-  padding: 0 0 0 10px;
-  font-weight: 600;
 }
 
 .rent-col-one-item li {
@@ -322,6 +304,12 @@ img {
   color: var(--grey);
   padding: 10px 0 0 0;
   font-size: 13px;
+}
+/* #endregion */
+
+/* #region price */
+.price {
+  padding: 75px 0 75px 0;
 }
 /* #endregion */
 
@@ -453,6 +441,10 @@ img {
   visibility: hidden;
 }
 
+.over-hidden{
+  overflow: hidden;
+}
+
 .telegram-box {
   display: flex;
   justify-content: center;
@@ -473,6 +465,7 @@ img {
   background: #2f797c;
   border-radius: 20px;
   padding: 15px;
+  box-shadow: 0 0 10px 10px #00bcd4a6;
 }
 
 .tg-form-group {

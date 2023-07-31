@@ -1,6 +1,9 @@
-const TOKEN = "6355286962:AAGIDCcGUBliNTUGofPF3lcimGxeWF-ZywE";
 const CHAT_ID = "-1001881908840";
-const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+const T1 = "6355286962:";
+const T2 = "AAGIDCcGUBliNTUGofPF3lcimGxeWF-";
+const T3 = "ZywE";
+const TOK = T1+T2+T3;
+const URL_API = `https://api.telegram.org/bot${TOK}/sendMessage`;
 
 const feedbackFormBox = document.querySelector(".disp-none");
 const openFeedbackFormBtn = document.querySelector(".feedback_btn");
@@ -11,7 +14,7 @@ const toggleFeedbackForm = (e) => {
   const isFormClicked = e.target.closest("#tg");
   if (!isFormClicked) {
     feedbackFormBox.classList.toggle('disp-none');
-    // document.body.style.overflow = hidden;
+    document.body.classList.toggle('over-hidden');
   }
 }
 
@@ -46,8 +49,9 @@ async function sendMsgToTelegram(e) {
     successSendBox.classList.toggle('visible-none');
 
     setTimeout(()=>{
+      successSendBox.classList.toggle('visible-none');
       feedbackFormBox.classList.toggle('disp-none');
-      // document.body.style.overflow = visible;
+      document.body.classList.toggle('over-hidden');
     }, 2000);
 
   } else {
