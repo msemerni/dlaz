@@ -310,9 +310,9 @@ const langArr = {
       sk: "Správa",
     },
     form_message_sent: {
-      en: "Message sent",
-      de: "Nachricht gesendet",
-      sk: "Správa poslaná",
+      en: "Message sent ✔️",
+      de: "Nachricht gesendet ✔️",
+      sk: "Správa poslaná ✔️",
     },
     form_message_sent_btn: {
       en: "Send",
