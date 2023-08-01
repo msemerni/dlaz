@@ -14,6 +14,7 @@
   --white: #FFF;
   --grey: #808080;
   --blue: #808ecc;
+  --aqua: #61C0D2;
 }
 
 /* Light mode styles */
@@ -130,9 +131,9 @@ img {
 }
 
 .btn:hover {
-  background: var(--text-color);
-  color: var(--white);
-  transform: scale(1.1);
+  background: var(--aqua);
+  color: #1c31a5;
+  transform: scale(1.02);
 }
 
 .divider {
@@ -189,10 +190,19 @@ img {
 
 .settings-box {
   display: flex;
+  /* width: 33%; */
+  justify-content: flex-end;
 }
 
 .theme-toggle-button {
   border: none;
+  background-color: var(--bg-color); /* Set the background color */
+  color: var(--text-color); /* Set the text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .lightToggleIcon {
@@ -367,6 +377,10 @@ img {
 /* #region price */
 .price {
   padding: 75px 0 75px 0;
+}
+
+.cost {
+  color: #ff0000;
 }
 /* #endregion */
 
@@ -573,8 +587,8 @@ img {
 }
 
 .submit-btn:hover {
-  background: var(--text-color);
-  color: var(--white);
+  background: var(--aqua);
+  color: #1c31a5;
 }
 /* #endregion */
 
@@ -599,7 +613,7 @@ img {
 
   .nav-box {
     flex-direction: column;
-    padding: 5px 0 0 50px;
+    padding: 5px 0 0 30px;
     gap: 30px;
   }
 
@@ -615,5 +629,6 @@ img {
   .burger-close {
     display: block;
   }
+
   /* #endregion */
 }
