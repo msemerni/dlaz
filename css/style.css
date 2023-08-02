@@ -1,15 +1,11 @@
 /* #region page */
 :root {
   --bg-color: #ededed;
-
   --bg-color-light: #ededed;;
   --text-color-light: #25125a;
   --bg-color-dark: #04061b;
-  --text-color-dark: #ffffff;
-
+  --text-color-dark: #ededed;
   --bg-grad-1: linear-gradient(45deg, #C677FF 0%, #7059FB 50%, #2ECFF6 100%);
-  /* --text-color: #25125a; */
-
   --black: #000;
   --white: #FFF;
   --grey: #808080;
@@ -17,13 +13,11 @@
   --aqua: #61C0D2;
 }
 
-/* Light mode styles */
 [data-mode="light"] {
   --bg-color: var(--bg-color-light);
   --text-color: var(--text-color-light);
 }
 
-/* Dark mode styles */
 [data-mode="dark"] {
   --bg-color: var(--bg-color-dark);
   --text-color: var(--text-color-dark);
@@ -190,14 +184,13 @@ img {
 
 .settings-box {
   display: flex;
-  /* width: 33%; */
   justify-content: flex-end;
 }
 
 .theme-toggle-button {
   border: none;
-  background-color: var(--bg-color); /* Set the background color */
-  color: var(--text-color); /* Set the text color */
+  background-color: var(--bg-color);
+  color: var(--text-color);
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -561,7 +554,7 @@ img {
 .tg-form-control {
   width: 100%;
   text-align: left;
-  background: #e4e9ff;
+  background: #00bcd4a6;
   border-radius: 7px;
   line-height: 1.8;
   padding: 0 5px;
