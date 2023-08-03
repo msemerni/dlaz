@@ -43,7 +43,7 @@ const langArr = {
     btn: {
       en: "Learn more",
       de: "Erfahren Sie mehr",
-      sk: "Dozvedeť sa viacPopis fotografie",
+      sk: "Dozvedeť sa viac",
     }
   },
 
