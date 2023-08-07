@@ -1,5 +1,11 @@
 const langArr = {
 
+  title: {
+    en: "D-Laz Diode Laser Epilation",
+    de: "D-Laz-Diodenlaser-Epilation",
+    sk: "Laserová epilácia diódou D-Laz",
+  },
+
   header: {
     home: {
       en: "Home",
@@ -36,7 +42,7 @@ const langArr = {
 
   home: {
     descr: {
-      en: "Epilation diode laser rentals.<br>You pay only when you earn no strickt monthly payments.<br>Rent of cosmetology equipment never been so easy and rewarding.",
+      en: "Epilation diode laser rentals.<br>You pay only when you earn no strict monthly payments.<br>Rent of cosmetology equipment never been so easy and rewarding.",
       de: "Epilationsdiodenlasers mieten.<br>Zahlen nur, wenn Sie verdienen.<br>Kosmetikgeräte mieten war noch nie so einfach und lukrativ.",
       sk: "Prenájom epilačných diódových laserov.<br>Platíte len vtedy, keď zarábate.<br>Žiadne prísne mesačné platby.<br>Prenájom kozmetických prístrojov nikdy nebol taký jednoduchý a výhodný.",
     },
