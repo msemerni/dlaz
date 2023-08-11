@@ -1,9 +1,9 @@
 const langArr = {
 
   title: {
-    en: "D-Laz Diode Laser Epilation",
-    de: "D-Laz-Diodenlaser-Epilation",
-    sk: "Laserová epilácia diódou D-Laz",
+    en: "D-Laz Laser Epilation",
+    de: "D-Laz Laserová Epilácia",
+    sk: "Laser-Epilation D-Laz",
   },
 
   header: {

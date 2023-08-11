@@ -192,8 +192,8 @@ img {
   background-color: var(--bg-color);
   color: var(--text-color);
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 8px;
+  border-radius: 50%;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
 }
@@ -372,8 +372,24 @@ img {
   padding: 75px 0 75px 0;
 }
 
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 .cost {
-  color: #ff0000;
+  /* color: #ff0000; */
+  font-size: 24px;
+  background: linear-gradient(90deg, #ff0000, #7958ff, #cd05b4, #ff0000);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradientAnimation 2s ease-in-out infinite;
+  background-size: 200% auto;
 }
 /* #endregion */
 
