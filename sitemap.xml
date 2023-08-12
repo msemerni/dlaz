@@ -3,10 +3,61 @@
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
 <url>
-  <loc>https://dlaz.online/</loc>
+  <loc>https://dlaz.online/en</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://dlaz.online/en"/>
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="https://dlaz.online/de"/>
+  <xhtml:link
+    rel="alternate"
+    hreflang="sk"
+    href="https://dlaz.online/sk"/>
+  <lastmod>2023-08-06T08:22:30+00:00</lastmod>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+</url>
+
+<url>
+  <loc>https://dlaz.online/de</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://dlaz.online/en"/>
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="https://dlaz.online/de"/>
+  <xhtml:link
+    rel="alternate"
+    hreflang="sk"
+    href="https://dlaz.online/sk"/>
+  <lastmod>2023-08-06T08:22:30+00:00</lastmod>
+  <priority>1.0</priority>
+  <changefreq>always</changefreq>
+</url>
+
+<url>
+  <loc>https://dlaz.online/sk</loc>
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://dlaz.online/en"/>
+  <xhtml:link
+    rel="alternate"
+    hreflang="de"
+    href="https://dlaz.online/de"/>
+  <xhtml:link
+    rel="alternate"
+    hreflang="sk"
+    href="https://dlaz.online/sk"/>
   <lastmod>2023-08-06T08:22:30+00:00</lastmod>
   <priority>1.0</priority>
   <changefreq>always</changefreq>
