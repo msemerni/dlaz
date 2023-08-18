@@ -13,7 +13,7 @@ function handleIntersection(entries, observer) {
       entry.target.classList.add('rotate-once');
       setTimeout(() => {
         entry.target.classList.remove('rotate-once');
-      }, 500); 
+      }, 500);
     }
   });
 }

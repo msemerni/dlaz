@@ -6,32 +6,8 @@
     <loc>https://dlaz.online/</loc>
     <xhtml:link
       rel="alternate"
-      hreflang="x-default"
-      href="https://dlaz.online/"/>
-    <xhtml:link
-      rel="alternate"
       hreflang="en"
-      href="https://dlaz.online/en/"/>
-    <xhtml:link
-      rel="alternate"
-      hreflang="de"
-      href="https://dlaz.online/de/"/>
-    <xhtml:link
-      rel="alternate"
-      hreflang="sk"
-      href="https://dlaz.online/sk/"/>
-  </url>
-
-  <url>
-    <loc>https://dlaz.online/en/</loc>
-    <xhtml:link
-      rel="alternate"
-      hreflang="x-default"
       href="https://dlaz.online/"/>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://dlaz.online/en/"/>
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -46,12 +22,8 @@
     <loc>https://dlaz.online/de/</loc>
     <xhtml:link
       rel="alternate"
-      hreflang="x-default"
-      href="https://dlaz.online/"/>
-    <xhtml:link
-      rel="alternate"
       hreflang="en"
-      href="https://dlaz.online/en/"/>
+      href="https://dlaz.online/"/>
     <xhtml:link
       rel="alternate"
       hreflang="de"
@@ -66,12 +38,8 @@
     <loc>https://dlaz.online/sk/</loc>
     <xhtml:link
       rel="alternate"
-      hreflang="x-default"
-      href="https://dlaz.online/"/>
-    <xhtml:link
-      rel="alternate"
       hreflang="en"
-      href="https://dlaz.online/en/"/>
+      href="https://dlaz.online/"/>
     <xhtml:link
       rel="alternate"
       hreflang="de"
