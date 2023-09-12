@@ -382,7 +382,6 @@ img {
 }
 
 .cost {
-  /* color: #ff0000; */
   font-size: 24px;
   background: linear-gradient(90deg, #ff0000, #7958ff, #cd05b4, #ff0000);
   background-clip: text;

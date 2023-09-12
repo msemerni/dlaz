@@ -2,7 +2,7 @@ const CHAT_ID = "-1001881908840";
 const T1 = "6355286962:";
 const T2 = "AAGIDCcGUBliNTUGofPF3lcimGxeWF-";
 const T3 = "ZywE";
-const TOK = T1 + T2 + T3;
+const TOK = `${T1}${T2}${T3}`;
 const URL_API = `https://api.telegram.org/bot${TOK}/sendMessage`;
 
 const feedbackFormBox = document.querySelector(".disp-none");
