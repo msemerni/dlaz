@@ -8,7 +8,7 @@
   --bg-grad-1: linear-gradient(45deg, #C677FF 0%, #7059FB 50%, #2ECFF6 100%);
   --black: #000;
   --white: #FFF;
-  --grey: #808080;
+  --grey: #a19f9f;
   --blue: #808ecc;
   --aqua: #61C0D2;
 }
@@ -637,6 +637,8 @@ img {
   .burger-open,
   .burger-close {
     display: block;
+    height: 24px;
+    width: 24px;
   }
 
   /* #endregion */
