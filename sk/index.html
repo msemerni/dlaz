@@ -28,7 +28,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="preload" as="style">
 
   <link rel="canonical" href="https://dlaz.online">
   <link rel="alternate" hreflang="en" href="https://dlaz.online">
@@ -143,7 +143,7 @@
               <div class="home-col-one">
 
                 <div class="home-col-one-item">
-                  <img rel="preload" as="image" src="../images/home/main_photo.jpg" alt="laser photo">
+                  <img fetchpriority="high" src="../images/home/main_photo.jpg" alt="laser photo">
                 </div>
 
                 <div class="home-col-one-item home-col-one-item-right">

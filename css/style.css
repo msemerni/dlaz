@@ -9,6 +9,7 @@
   --black: #000;
   --white: #FFF;
   --grey: #a19f9f;
+  --dark-grey: #4D4C66;
   --blue: #808ecc;
   --aqua: #61C0D2;
 }
@@ -16,6 +17,7 @@
 [data-mode="light"] {
   --bg-color: var(--bg-color-light);
   --text-color: var(--text-color-light);
+  --grey: var(--dark-grey);
 }
 
 [data-mode="dark"] {
